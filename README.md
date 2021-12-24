@@ -1,4 +1,10 @@
-# Events
+# PhotonDocs
+
+This is a repository to share documentation about the photon protocol that VRChat uses.
+
+ImHex will be used to document a bunch of the binary formats here and is a really neat reverse engineering tool to have
+
+## Events
 
 | Code  | Event Name                 | Description                                       | Authoritative             | Docs                                                                            |
 | ----- | -------------------------- | ------------------------------------------------- | ------------------------- | ------------------------------------------- |
