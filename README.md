@@ -9,13 +9,12 @@
 | `5`   | `SyncFinished`             | Marks a SendPastEvents request as finished.       | No.                                      | N/A                                                                    |
 | `6`   | `ProcessEvent`             | Broadcast Used for RPCs.                          | No.                                      | N/A                                                                    |
 | `7`   | `Unreliable Serialization` | Used for IK data serialization.                   | No.                                      | [format](https://github.com/OptoCloud/PhotonDocs-Sensitive)            |
-| `8`   | `InterestManagement`       | Used for interest list sync.                      | Yes.                                     | [[#ReceiveInterestPacket]], [[#InterestRecord]]                        |
+| `8`   | `InterestManagement`       | Used for interest list sync.                      | Yes.                                     | [format](InterestManagement/README.md)                                 |
 | `9`   | `Relaible Serialization`   | Used for AV3 & Udon sync.                         | No.                                      | N/A                                                                    |
-| `15`  | `BigData` / `ChairSync`    | Not known.                                        | ??                                       | N/A                                                                    |
-| `33`  | `ExecutiveAction`          | General Moderation event.                         | Yes.                                     | [[#ModNetworkProperty Event 33 - ExecutiveAction\|ModNetworkProperty]] |
+| `33`  | `ExecutiveAction`          | General Moderation event.                         | Yes.                                     | [format](ExecutiveAction/README.md)                                    |
 | `34`  | `RatelimitValues`          | In-game rate-limiter                              | Yes.                                     | N/A                                                                    |
 | `35`  | ???                        | ???                                               | Yes.                                     | N/A                                                                    |
-| `40`  | `UserRecordUpdate`         | Used to update a user's details.                  | Yes.                                     | [[#RecordUpdateFlags]]                                                 |
+| `40`  | `UserRecordUpdate`         | Used to update a user's details.                  | Yes.                                     | [format](UserRecordUpdate/README.md)                                                 |
 | `202` | `Instanciate`              |                                                   |                                          |                                                                        |
 | `209` | `OwnershipRequest`         |                                                   |                                          |                                                                        |
 | `210` | `OwnershipTransfer`        |                                                   |                                          |                                                                        |
