@@ -15,7 +15,7 @@
 
 Note: `Blocked_Users` and `Muted_Users` can be either `bool` or `Int32` (Photon ActorId), possibly depending on whether `Target_User` is set and the `Type` of the event.
 
-
+---
 
 ### ModNetworkEvent
 These are the available `Type`s for ModNetworkProperty
