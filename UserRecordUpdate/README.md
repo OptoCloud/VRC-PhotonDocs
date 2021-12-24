@@ -11,3 +11,9 @@
 | `1 << 4` | `Allow_Avatar_Copying` |
 | `1 << 5` | `Profile_Picture`      |
 | `1 << 6` | `Bio`                  |
+
+## Example use
+
+```cs
+loadBalancingClient.OpRaiseEvent(40, RecordUpdateFlags.Avatar, new RaiseEventOptions(), new SendOptions());
+```
