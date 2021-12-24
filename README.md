@@ -1,12 +1,4 @@
-Table of Contents: 
-```toc
-    style: bullet | number (default: bullet)
-    min_depth: number (default: 2)
-    max_depth: number (default: 6)
-```
----
-
-### Event Codes
+# Events
 
 | Code  | Event Name                 | Description                                       | Authoritative                            | DocLink                                                                |
 | ----- | -------------------------- | ------------------------------------------------- | ---------------------------------------- | ---------------------------------------------------------------------- |
