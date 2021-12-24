@@ -10,7 +10,7 @@
 | `6`   | `ProcessEvent`             | Broadcast Used for RPCs.                          | No.                       | N/A                                                                             |
 | `7`   | `Unreliable Serialization` | Used for IK data serialization.                   | No.                       | [format](https://github.com/OptoCloud/PhotonDocs-Sensitive) (Restricted access) |
 | `8`   | `InterestManagement`       | Used for interest list sync.                      | Yes.                      | [format](InterestManagement/README.md)                                          |
-| `9`   | `Relaible Serialization`   | Used for AV3 & Udon sync.                         | No.                       | N/A                                                                             |
+| `9`   | `Relaible Serialization`   | Used for AV3 & Udon sync.                         | No.                       | [format](https://github.com/OptoCloud/PhotonDocs-Sensitive) (Restricted access) |
 | `33`  | `ExecutiveAction`          | General Moderation event.                         | Yes.                      | [format](ExecutiveAction/README.md)                                             |
 | `34`  | `RatelimitValues`          | In-game rate-limiter                              | Yes.                      | N/A                                                                             |
 | `35`  | ???                        | ???                                               | Yes.                      | N/A                                                                             |
