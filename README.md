@@ -38,50 +38,6 @@ Table of Contents:
 
 ---
 
-
-### ModNetworkEvent
-These are the available `Type`s for ModNetworkProperty
-
-
-| Code (byte) | Description          | Notes                                                                                          |
-| ----------- | -------------------- | ---------------------------------------------------------------------------------------------- |
-| `1`         | `Enforce_Moderation` | Likely used to immediately enforce a pending moderation.                                       |
-| `2`         | `Alert`              | N/A                                                                                            |
-| `3`         | `Warn`               | N/A                                                                                            |
-| `4`         | `Kick`               | N/A                                                                                            |
-| `5`         | `Vote_Kick`          | N/A                                                                                            |
-| `6`         | `Public_Ban`         | N/A                                                                                            |
-| `7`         | `Ban`                | N/A                                                                                            |
-| `8`         | `Mic_Off`            | Disables the microphone of the target user.                                                    |
-| `9`         | `Mic_Volume_Adjust`  | N/A                                                                                            |
-| `10`        | `Friend_Change`      | N/A (Likely used to broadcast a friendship change [e.g.: AddFriend, DeleteFriend]?)            |
-| `11`        | `Warp_To_Instance`   | Likely related to the "Warp to Instance" feature available in the DevTools menu in the new UI. |
-| `12`        | `Teleport_User`      | N/A                                                                                            |
-| `13`        | `Query`              | N/A                                                                                            |
-| `20`        | `Request_PlayerMods` | N/A                                                                                            |
-| `21`        | `Reply_PlayerMods`   | N/A                                                                                            |
-| `22`        | `Block_User`         | N/A                                                                                            |
-| `23`        | `Mute_User`          | N/A                                                                                            |
-
-
----
-
-### RecordUpdateFlags
-These are the flags assigned to Event 40 (`UserRecordUpdate`)
-
-| Code  | Description            |
-| ----- | ---------------------- |
-| `0x1` | `Avatar`               | 
-| `0x2` | `Fallback_Avatar`      |
-| `4`   | `User_Icon`            |
-| `8`   | `Status`               |
-| `16`  | `Allow_Avatar_Copying` |
-| `32`  | `Profile_Picture`      |
-| `64`  | `Bio`                  |
-
-
----
-
 ### ReceiveInterestPacket
 The custom data on the **received** interest packet (EvCode 8) is an `int[]` of actor numbers that can _receive_ ___our___ events. This is based on the function name `CanHearMe(int remote)`, which probes `InterestManager.instance.listeners` to check whether `remote` is in the listeners.
 
