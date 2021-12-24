@@ -11,7 +11,7 @@ Table of Contents:
 | Code | Event Name              | Description                                       | Authoritative                            | DocLink                                                                |
 | ---- | ----------------------- | ------------------------------------------------- | ---------------------------------------- | ---------------------------------------------------------------------- |
 | `0`  | `Unused`                | Unused event.                                     | No.                                      | N/A                                                                    |
-| `1`  | `VoiceDataReceived`     | uSpeak.                                           | No.                                      | N/A                                                                    |
+| `1`  | `VoiceDataReceived`     | uSpeak.                                           | No.                                      | [format](uSpeak/Format.md)                                             |
 | `2`  | `ExecutiveMessage`      | Used by backend to communicate alerts to clients. | Yes.                                     | N/A                                                                    |
 | `3`  | `SendPastEvents`        | Used to request the past events of an instance.   | No. (Make sure it's only sent to Master) | N/A                                                                    |
 | `4`  | `SyncEvents`            | Used as a response to SendPastEvents              | No.                                      | N/A                                                                    |
