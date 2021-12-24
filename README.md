@@ -10,8 +10,8 @@ Table of Contents:
 
 | Code  | Event Name                 | Description                                       | Authoritative                            | DocLink                                                                |
 | ----- | -------------------------- | ------------------------------------------------- | ---------------------------------------- | ---------------------------------------------------------------------- |
-| `1`   | `Voice`                    | uSpeak.                                           | No.                                      | [format](uSpeak/Format.md)                                             |
-| `2`   | `ExecutiveMessage`         | Used by backend to communicate alerts to clients. | Yes.                                     | [format](ExecutiveMessage/Format.md)                                   |
+| `1`   | `Voice`                    | uSpeak.                                           | No.                                      | [format](Voice/README.md)                                             |
+| `2`   | `ExecutiveMessage`         | Used by backend to communicate alerts to clients. | Yes.                                     | [format](ExecutiveMessage/README.md)                                   |
 | `3`   | `PastEvents`               | Used to request the past events of an instance.   | No. (Make sure it's only sent to Master) | N/A                                                                    |
 | `4`   | `SyncEvents`               | Used as a response to SendPastEvents              | No.                                      | N/A                                                                    |
 | `5`   | `SyncFinished`             | Marks a SendPastEvents request as finished.       | No.                                      | N/A                                                                    |
