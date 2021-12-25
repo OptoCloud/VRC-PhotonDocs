@@ -1,4 +1,4 @@
-# ModNetworkProperty (Event 33 - ExecutiveAction)
+# Executive Action (Event 33)
 
 | Code | Description     | Notes                                                                                                                       |
 | ---- | --------------- | --------------------------------------------------------------------------------------------------------------------------- |
