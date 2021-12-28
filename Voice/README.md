@@ -26,4 +26,4 @@ struct USpeakHeader {
 | Channels   | `Mono?`  |
 
 ## Examples
-[USpeakNative](https://github.com/OptoCloud/USpeakNative)
+[USpeakNative](https://github.com/OptoCloud/USpeakNative) (Ask HentaiHeaven#0001 on discord for access if you cant access this repo)
