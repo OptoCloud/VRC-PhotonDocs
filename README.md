@@ -10,9 +10,9 @@ This is a repository to share documentation about the photon protocol that VRCha
 | ----- | -------------------------- | ------------------------------------------------- | ------------------------- | ------------------------------------------- |
 | `1`   | `Voice`                    | uSpeak.                                           | No.                       | [format](Voice/README.md)                   |
 | `2`   | `ExecutiveMessage`         | Used by backend to communicate alerts to clients. | Yes.                      | [format](ExecutiveMessage/README.md)        |
-| `3`   | `PastEvents`               | Used to request the past events of an instance.   | No. (Only send to Master) | N/A                                         |
-| `4`   | `SyncEvents`               | Used as a response to SendPastEvents              | No.                       | N/A                                         |
-| `5`   | `SyncFinished`             | Marks a SendPastEvents request as finished.       | No.                       | N/A                                         |
+| `3`   | `PastEvents`               | Used to request the past events of an instance.   | No. (Only send to Master) | [format](PastEvents/README.md)              |
+| `4`   | `SyncEvents`               | Used as a response to SendPastEvents              | No.                       | [format](SyncEvents/README.md)              |
+| `5`   | `SyncFinished`             | Marks a SendPastEvents request as finished.       | No.                       | [format](SyncFinished/README.md)            |
 | `6`   | `ProcessEvent`             | Broadcast Used for RPCs.                          | No.                       | [format](ProcessEvent/README.md)            |
 | `7`   | `Unreliable Serialization` | Used for IK data serialization.                   | No.                       | [format](ReliableSerialization/README.md)   |
 | `8`   | `InterestManagement`       | Used for interest list sync.                      | Yes.                      | [format](InterestManagement/README.md)      |
