@@ -18,7 +18,7 @@ This is a repository to share documentation about the photon protocol that VRCha
 | `8`   | `InterestManagement`       | Used for interest list sync.                      | Yes.                      | [format](InterestManagement/README.md)      |
 | `9`   | `Relaible Serialization`   | Used for AV3 & Udon sync.                         | No.                       | [format](UnreliableSerialization/README.md) |
 | `33`  | `ExecutiveAction`          | General Moderation event.                         | Yes.                      | [format](ExecutiveAction/README.md)         |
-| `34`  | `RatelimitValueSync`       | In-game rate-limiter                              | Yes.                      | N/A                                         |
+| `34`  | `RatelimitValueSync`       | In-game rate-limiter                              | Yes.                      | [format](RatelimitValueSync/README.md)      |
 | `35`  | `RatelimitUpdate`          | Update Tick for Ratelimited Actors                | Yes.                      | [format](RatelimitUpdate/README.md)         |
 | `40`  | `UserRecordUpdate`         | Used to update a user's details.                  | Yes.                      | [format](UserRecordUpdate/README.md)        |
 | `202` | `Instantiate`              |                                                   |                           |                                             |
