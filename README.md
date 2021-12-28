@@ -29,10 +29,21 @@ This is a repository to share documentation about the photon protocol that VRCha
 | `209` | `OwnershipRequest`         |                                                   |                           |                                             |
 | `210` | `OwnershipTransfer`        |                                                   |                           |                                             |
 | `211` | `VacantViewIds`            |                                                   |                           |                                             |
-| `223` | `Auth`                     |                                                   |                           |                                             |
-| `226` | `Stats`                    |                                                   |                           |                                             |
-| `230` | `Authenticate`             |                                                   |                           |                                             |
-| `252` | `SetProperties`            |                                                   |                           |                                             |
-| `253` | `PropertiesChanged`        |                                                   |                           |                                             |
-| `254` | `Leave`                    |                                                   |                           |                                             |
-| `255` | `Join`                     |                                                   |                           |                                             |
+| `217` | `GetRoomList`              | PhotonEvent                                       |                           |                                             |
+| `219` | `RPC`                      | PhotonEvent                                       |                           |                                             |
+| `220` | `GetRegions`               | PhotonEvent                                       |                           |                                             |
+| `221` | `LobbyStats`               | PhotonEvent                                       |                           |                                             |
+| `222` | `FindFriends`              | PhotonEvent                                       |                           |                                             |
+| `225` | `JoinRandomRoom`           | PhotonEvent                                       |                           |                                             |
+| `226` | `JoinRoom`                 | PhotonEvent                                       |                           |                                             |
+| `227` | `CreateRoom`               | PhotonEvent                                       |                           |                                             |
+| `228` | `LeaveLobby`               | PhotonEvent                                       |                           |                                             |
+| `229` | `JoinLobby`                | PhotonEvent                                       |                           |                                             |
+| `230` | `Authenticate`             | PhotonEvent                                       |                           |                                             |
+| `231` | `AuthOnce`                 | PhotonEvent                                       |                           |                                             |
+| `248` | `ChangeGroups`             | PhotonEvent                                       |                           |                                             |
+| `251` | `GetProperties`            | PhotonEvent                                       |                           |                                             |
+| `252` | `SetProperties`            | PhotonEvent                                       |                           |                                             |
+| `253` | `RaiseEv`                  | PhotonEvent                                       |                           |                                             |
+| `254` | `Leave`                    | PhotonEvent                                       |                           |                                             |
+| `255` | `Join`                     | PhotonEvent                                       |                           |                                             |
