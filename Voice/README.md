@@ -18,7 +18,7 @@ struct USpeakHeader {
 
 ## Limits
 
-Any single uspeak packet can not exceed a size of 0x3FF (1023), else it will get dropped by the receiving client
+Any single uspeak packet can not exceed a size of ``0x3FF`` (``1023``) bytes, else it will get dropped by the receiving client
 
 ## Opus encoding
 
