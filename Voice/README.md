@@ -10,7 +10,7 @@ struct USpeakPacket {
     uint8_t  opusData[this.size];
 };
 struct USpeakHeader {
-    int32_t senderActorNr;  // Photon Id of sernder
+    int32_t senderActorNr;  // Photon Id of sender
     int32_t serverTicks;    // Server ticks at send time
     USpeakPacket packets[]; // normally 2-3 packets
 };
