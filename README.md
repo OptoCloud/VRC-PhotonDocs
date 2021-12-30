@@ -12,6 +12,8 @@ This is a repository to share documentation about the photon protocol that VRCha
 
 [Official documentation](https://doc-api.photonengine.com/en/pun/v1/class_operation_code.html)
 
+## VRChat specific documentation for OpCodes: 
+
 | Code  | OpCode Name                | Description | Docs                                        |
 | ----- | -------------------------- | ----------- | ------------------------------------------- |
 | `217` | `GetRoomList`              |             |                                             |
