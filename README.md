@@ -8,11 +8,11 @@ This is a repository to share documentation about the photon protocol that VRCha
 
 [PhotonDebug](https://github.com/OptoCloud/PhotonDebug) Is a photon debug tool made by HentaiHeaven#0001 and logs all photon data to json log files.
 
-# OpCodes
+## OpCodes
 
 [Official documentation](https://doc-api.photonengine.com/en/pun/v1/class_operation_code.html)
 
-## VRChat specific documentation for OpCodes: 
+### VRChat specific documentation for OpCodes: 
 
 | Code  | OpCode Name                | Description | Docs                                        |
 | ----- | -------------------------- | ----------- | ------------------------------------------- |
