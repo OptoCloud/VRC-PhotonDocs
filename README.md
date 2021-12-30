@@ -8,6 +8,30 @@ This is a repository to share documentation about the photon protocol that VRCha
 
 [PhotonDebug](https://github.com/OptoCloud/PhotonDebug) Is a photon debug tool made by HentaiHeaven#0001 and logs all photon data to json log files.
 
+# OpCodes
+
+| Code  | OpCode Name                | Description | Docs                                        |
+| ----- | -------------------------- | ----------- | ------------------------------------------- |
+| `217` | `GetRoomList`              |             |                                             |
+| `219` | `RPC`                      |             |                                             |
+| `220` | `GetRegions`               |             |                                             |
+| `221` | `LobbyStats`               |             |                                             |
+| `222` | `FindFriends`              |             |                                             |
+| `225` | `JoinRandomRoom`           |             |                                             |
+| `226` | `JoinRoom`                 |             |                                             |
+| `227` | `CreateRoom`               |             |                                             |
+| `228` | `LeaveLobby`               |             |                                             |
+| `229` | `JoinLobby`                |             |                                             |
+| `230` | `Authenticate`             |             |                                             |
+| `231` | `AuthOnce`                 |             |                                             |
+| `248` | `ChangeGroups`             |             |                                             |
+| `251` | `GetProperties`            |             |                                             |
+| `252` | `SetProperties`            |             |                                             |
+| `253` | `RaiseEv`                  |             |                                             |
+| `254` | `Leave`                    |             |                                             |
+| `255` | `Join`                     |             |                                             |
+
+
 ## Events
 
 | Code  | Event Name                 | Description                                       | Authoritative             | Docs                                                                            |
@@ -29,21 +53,3 @@ This is a repository to share documentation about the photon protocol that VRCha
 | `209` | `OwnershipRequest`         |                                                   |                           |                                             |
 | `210` | `OwnershipTransfer`        |                                                   |                           |                                             |
 | `211` | `VacantViewIds`            |                                                   |                           |                                             |
-| `217` | `GetRoomList`              | PhotonEvent                                       |                           |                                             |
-| `219` | `RPC`                      | PhotonEvent                                       |                           |                                             |
-| `220` | `GetRegions`               | PhotonEvent                                       |                           |                                             |
-| `221` | `LobbyStats`               | PhotonEvent                                       |                           |                                             |
-| `222` | `FindFriends`              | PhotonEvent                                       |                           |                                             |
-| `225` | `JoinRandomRoom`           | PhotonEvent                                       |                           |                                             |
-| `226` | `JoinRoom`                 | PhotonEvent                                       |                           |                                             |
-| `227` | `CreateRoom`               | PhotonEvent                                       |                           |                                             |
-| `228` | `LeaveLobby`               | PhotonEvent                                       |                           |                                             |
-| `229` | `JoinLobby`                | PhotonEvent                                       |                           |                                             |
-| `230` | `Authenticate`             | PhotonEvent                                       |                           |                                             |
-| `231` | `AuthOnce`                 | PhotonEvent                                       |                           |                                             |
-| `248` | `ChangeGroups`             | PhotonEvent                                       |                           |                                             |
-| `251` | `GetProperties`            | PhotonEvent                                       |                           |                                             |
-| `252` | `SetProperties`            | PhotonEvent                                       |                           |                                             |
-| `253` | `RaiseEv`                  | PhotonEvent                                       |                           |                                             |
-| `254` | `Leave`                    | PhotonEvent                                       |                           |                                             |
-| `255` | `Join`                     | PhotonEvent                                       |                           |                                             |
