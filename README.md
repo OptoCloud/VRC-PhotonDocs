@@ -38,6 +38,8 @@ This is a repository to share documentation about the photon protocol that VRCha
 
 ## Events
 
+These are events that can be snet by invoking Operation ``RaiseEvent`` (``253``)
+
 | Code  | Event Name                 | Description                                       | Authoritative             | Docs                                                                            |
 | ----- | -------------------------- | ------------------------------------------------- | ------------------------- | ------------------------------------------- |
 | `1`   | `Voice`                    | Voice transmission via uSpeak.                    | No.                       | [format](Voice/README.md)                   |
