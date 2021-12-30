@@ -10,12 +10,14 @@ This is a repository to share documentation about the photon protocol that VRCha
 
 # OpCodes
 
+[Official documentation](https://doc-api.photonengine.com/en/pun/v1/class_operation_code.html)
+
 | Code  | OpCode Name                | Description | Docs                                        |
 | ----- | -------------------------- | ----------- | ------------------------------------------- |
 | `217` | `GetRoomList`              |             |                                             |
-| `219` | `RPC`                      |             |                                             |
+| `219` | `WebRPC`                   |             |                                             |
 | `220` | `GetRegions`               |             |                                             |
-| `221` | `LobbyStats`               |             |                                             |
+| `221` | `GetLobbyStats`            |             |                                             |
 | `222` | `FindFriends`              |             |                                             |
 | `225` | `JoinRandomRoom`           |             |                                             |
 | `226` | `JoinRoom`                 |             |                                             |
@@ -23,11 +25,11 @@ This is a repository to share documentation about the photon protocol that VRCha
 | `228` | `LeaveLobby`               |             |                                             |
 | `229` | `JoinLobby`                |             |                                             |
 | `230` | `Authenticate`             |             |                                             |
-| `231` | `AuthOnce`                 |             |                                             |
+| `231` | `AuthenticateOnce`         |             |                                             |
 | `248` | `ChangeGroups`             |             |                                             |
 | `251` | `GetProperties`            |             |                                             |
 | `252` | `SetProperties`            |             |                                             |
-| `253` | `RaiseEv`                  |             |                                             |
+| `253` | `RaiseEvent`               |             |                                             |
 | `254` | `Leave`                    |             |                                             |
 | `255` | `Join`                     |             |                                             |
 
