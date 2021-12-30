@@ -28,7 +28,6 @@ This is a repository to share documentation about the photon protocol that VRCha
 | `229` | `JoinLobby`                |             |                                             |
 | `230` | `Authenticate`             |             |                                             |
 | `231` | `AuthenticateOnce`         |             |                                             |
-| `248` | `ChangeGroups`             |             |                                             |
 | `251` | `GetProperties`            |             |                                             |
 | `252` | `SetProperties`            |             |                                             |
 | `253` | `RaiseEvent`               |             |                                             |
