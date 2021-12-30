@@ -38,7 +38,7 @@ This is a repository to share documentation about the photon protocol that VRCha
 
 ## Events
 
-These are events that can be snet by invoking Operation ``RaiseEvent`` (``253``)
+These are events that can be sent by invoking Operation ``RaiseEvent`` (``253``)
 
 | Code  | Event Name                 | Description                                       | Authoritative             | Docs                                                                            |
 | ----- | -------------------------- | ------------------------------------------------- | ------------------------- | ------------------------------------------- |
