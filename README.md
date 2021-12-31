@@ -49,7 +49,7 @@ These are events that can be sent by invoking Operation ``RaiseEvent`` (``253``)
 | `6`   | `ProcessEvent`             | Broadcast Used for VrcEvents (like RPCs).         | No.                       | [format](ProcessEvent/README.md)            |
 | `7`   | `Unreliable Serialization` | Used for any type of data that can be interpolated or doesn't have to be sent reliably.                  | No.                       | [format](ReliableSerialization/README.md)   |
 | `8`   | `InterestManagement`       | Used for interest list sync.                      | Yes.                      | [format](InterestManagement/README.md)      |
-| `9`   | `Relaible Serialization`   | Used for any type of data that should always be reliably sent like AV3 parameters, Udon Sync and late joiner position sync for players and pickups.                         | No.                       | [format](UnreliableSerialization/README.md) |
+| `9`   | `Reliable Serialization`   | Used for any type of data that should always be reliably sent like AV3 parameters, Udon Sync and late joiner position sync for players and pickups.                         | No.                       | [format](UnreliableSerialization/README.md) |
 | `33`  | `ExecutiveAction`          | General Moderation event.                         | Yes.                      | [format](ExecutiveAction/README.md)         |
 | `34`  | `RatelimitValueSync`       | In-game rate-limiter                              | Yes.                      | [format](RatelimitValueSync/README.md)      |
 | `35`  | `RatelimitUpdate`          | Update Tick for Ratelimited Actors                | Yes.                      | [format](RatelimitUpdate/README.md)         |
