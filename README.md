@@ -58,3 +58,4 @@ These are events that can be sent by invoking Operation ``RaiseEvent`` (``253``)
 | `209` | `OwnershipRequest`         |                                                   |                           |                                             |
 | `210` | `OwnershipTransfer`        |                                                   |                           |                                             |
 | `211` | `VacantViewIds`            |                                                   |                           |                                             |
+| `223` | `Photon AuthEvent`         |                                                   |                           |                                             |
