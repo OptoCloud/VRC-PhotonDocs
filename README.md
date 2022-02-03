@@ -54,7 +54,7 @@ These are events that can be sent by invoking Operation ``RaiseEvent`` (``253``)
 | `34`  | `RatelimitValueSync`       | In-game rate-limiter                              | Yes.                      | [format](RatelimitValueSync/README.md)      |
 | `35`  | `RatelimitUpdate`          | Update Tick for Ratelimited Actors                | Yes.                      | [format](RatelimitUpdate/README.md)         |
 | `40`  | `UserRecordUpdate`         | Used to update a user's details.                  | Yes.                      | [format](UserRecordUpdate/README.md)        |
-| `202` | `Instantiate`              |                                                   |                           |                                             |
+| `202` | `Instantiate`              | Used to instanciate self in lobby.                | ???                       | [format](Instanciate/README.md)             |
 | `209` | `OwnershipRequest`         |                                                   |                           |                                             |
 | `210` | `OwnershipTransfer`        |                                                   |                           |                                             |
 | `211` | `VacantViewIds`            |                                                   |                           |                                             |
