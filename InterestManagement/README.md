@@ -1,4 +1,16 @@
 # InterestManagement (Event 8)
 
-### ReceiveInterestPacket
-The custom data on the **received** interest packet (EvCode 8) is an `int[]` of actor numbers that can _receive_ ___our___ events. This is based on the function name `CanHearMe(int remote)`, which probes `InterestManager.instance.listeners` to check whether `remote` is in the listeners.
+## Sent Packet
+Informs the server of which PhotonView IDs the client is interested in. The encoding format can be found [[Event Codes/8/Format|here]].
+
+```c
+int32_t viewId; // The ViewID we're setting the interest of.
+uint8_t byte_1; // Interest Setting 1 | Effects unknown
+uint8_t byte_2; // Interest Setting 2 | Effects unknown
+```
+
+An `InterestManagement` event may contain more than one interest set.
+
+## Received packet
+
+Usually received on a one second interval, the custom data is an `int[]` of actor ids that we are receiving events from.

@@ -54,8 +54,18 @@ These are events that can be sent by invoking Operation ``RaiseEvent`` (``253``)
 | `34`  | `RatelimitValueSync`       | In-game rate-limiter                              | Yes.                      | [format](RatelimitValueSync/README.md)      |
 | `35`  | `RatelimitUpdate`          | Update Tick for Ratelimited Actors                | Yes.                      | [format](RatelimitUpdate/README.md)         |
 | `40`  | `UserRecordUpdate`         | Used to update a user's details.                  | Yes.                      | [format](UserRecordUpdate/README.md)        |
+| `42`  | `UserRecordUpdate`.. 2?    | Very similar to `Event 40`, added in build `1169` in preparation for the IK beta. | Yes.                      | [format](UserRecordUpdate2/README.md)       |
+| `60`  | `PhysBonesPermissions`     | Used to compute which actors can interact with which in an instance. | ???                       | [format](PhysBonesPermissions/README.md)       |
 | `202` | `Instantiate`              | Used to instanciate self in lobby.                | ???                       | [format](Instanciate/README.md)             |
 | `209` | `OwnershipRequest`         |                                                   |                           |                                             |
 | `210` | `OwnershipTransfer`        |                                                   |                           |                                             |
 | `211` | `VacantViewIds`            |                                                   |                           |                                             |
 | `223` | `Photon AuthEvent`         |                                                   |                           |                                             |
+
+## Misc
+
+#### ViewID list
+-   `00001`: VRCPlayer
+-   `00002`: USpeak 
+-   `00003`: PlayableController
+-   `00004`: BigData
