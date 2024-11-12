@@ -6,7 +6,7 @@ This is a repository to share documentation about the photon protocol that VRCha
 
 [ImHex](https://github.com/WerWolv/ImHex) will be used to document a bunch of the binary formats here and is a really neat reverse engineering tool to have
 
-[PhotonDebug](https://github.com/OptoCloud/PhotonDebug) Is a photon debug tool made by HentaiHeaven#0001 and logs all photon data to json log files.
+[PhotonDebug](https://github.com/OptoCloud/PhotonDebug) Is a photon debug tool made by OptoCloud#0001 and logs all photon data to json log files.
 
 ## OpCodes
 
